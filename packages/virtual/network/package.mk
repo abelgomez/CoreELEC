@@ -23,6 +23,10 @@ if [ "$OPENVPN_SUPPORT" = "yes" ]; then
   PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET openvpn"
 fi
 
+if [ "$OPENCONNECT_SUPPORT" = "yes" ]; then
+  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET openconnect"
+fi
+
 if [ "$WIREGUARD_SUPPORT" = "yes" ]; then
   PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET wireguard-tools wireguard-linux-compat"
 fi

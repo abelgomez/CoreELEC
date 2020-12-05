@@ -115,6 +115,9 @@
 # build and install OpenVPN support (yes / no)
   OPENVPN_SUPPORT="yes"
 
+# build and install OpenConnect support (yes / no)
+  OPENCONNECT_SUPPORT="yes"
+
 # build and install WireGuard support (yes / no)
   WIREGUARD_SUPPORT="yes"
 
